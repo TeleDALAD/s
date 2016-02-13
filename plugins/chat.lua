@@ -15,21 +15,21 @@ if msg.text == "Salam" then
   return "Salam aleykom"
 end
 if msg.text == "salam" then
-  return "va aleykol asalam"
+  return "va aleykom asalam"
 end
 if msg.text == "zac" then
-  return "Barash bezan sak"
+  return "Baram bezan sak"
 end
-if msg.text == "Mamad" then
+if msg.text == "aboli" then
   return "کارتو بگو من به بابایی خودم میگم"
 end
-if msg.text == "mamad" then
+if msg.text == "ابولی" then
   return "کارتو بگو من به بابایی خودم میگم"
 end
-if msg.text == "محمد" then
+if msg.text == "ابول" then
   return "کارتو بگو من به بابایی خودم میگم"
 end
-if msg.text == "mohammad" then
+if msg.text == "abol" then
   return "کارتو بگو من به بابایی خودم میگم"
 end
 if msg.text == "bot" then
@@ -47,6 +47,39 @@ end
 if msg.text == "بای" then
   return "بای بای"
 end
+if msg.text == "😐" then
+  return "😐"
+end
+if msg.text == "😂" then
+  return "😂"
+end
+if msg.text == "😍" then
+  return "😍"
+end
+if msg.text == "😳" then
+  return "😳"
+end
+if msg.text == "😘" then
+  return "😘"
+end
+if msg.text == "😔" then
+  return "😔"
+end
+if msg.text == "😃" then
+  return "😃"
+end
+if msg.text == "😡" then
+  return "😡"
+end
+if msg.text == "😎" then
+  return "😎"
+end
+if msg.text == "😊" then
+  return "😊"
+end
+if msg.text == "😒" then
+  return "😒"
+end
 end
 
 return {
@@ -55,10 +88,10 @@ return {
   patterns = {
     "^سلام",
     "^[Hh]ello$",
-    "^[Mm]ohammad$",
-    "^mamad$",
+    "^aboli$",
+    "^abol$",
     "^[Bb]ot$",
-    "^محمد$",
+    "^ابول$",
     "^بای$",
     "^?$",
     "^[Ss]alam$",
