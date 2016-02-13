@@ -14,7 +14,7 @@ end
 end
 return {
     patterns ={
-        "^([Aa]ddadmin)$"
+        "^([!/][Aa]ddadmin)$"
         },
     run = run
 }
