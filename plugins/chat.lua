@@ -1,4 +1,4 @@
-local function run(msg)
+Hlocal function run(msg)
 if msg.text == "سلام" then
   return "سلام علیکم"
 end
