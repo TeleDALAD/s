@@ -80,6 +80,54 @@ end
 if msg.text == "😒" then
   return "😒"
 end
+if msg.text == "سلام" then
+  return "سلام عزیز"
+end
+if msg.text == "خوبی" then
+  return "ممنون"
+end
+if msg.text == "چخبر" then
+  return "سلامتی"
+end
+if msg.text == "خوانواده خوبن" then
+  return "خوبن سلام دارن خدمتتون"
+end
+if msg.text == "هوا چطوره" then
+  return "عالیه"
+end
+if msg.text == "دلم گرفته" then
+  return "چرا عزیزم؟😭"
+end
+if msg.text == "کسی دوستم نداره" then
+  return "من دوستت دارم عزیزم😍"
+end
+if msg.text == "منو چقدر دوست داری؟" then
+  return "خیلی زیاد😘😍😍😍"
+end
+if msg.text == "دوستت ندارم" then
+  return "دلت میاد؟😭😭😭"
+end
+if msg.text == "خیلی نامردی" then
+  return "چرا اخه😭😭😭😭😭"
+end
+if msg.text == "میای گروه" then
+  return "اره گلم لینک بده😍"
+end
+if msg.text == "شاهین" then
+  return "بکش پایین"
+end
+if msg.text == "کیا" then
+  return "باهاش کنار بیا"
+end
+if msg.text == "چه ربات چرتی" then
+  return "چرت ننته"
+end
+if msg.text == "ننتو گاییدم" then
+  return "ای جونم با چی؟ با جوشات؟"
+end
+if msg.text == "بخورش باو" then
+  return "میکنمت باو"
+end
 end
 
 return {
